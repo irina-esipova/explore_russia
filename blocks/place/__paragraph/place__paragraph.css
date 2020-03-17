@@ -1,0 +1,32 @@
+.place__paragraph {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: normal;
+}
+
+.place__paragraph:first-of-type {
+    padding-bottom: 23px;
+}
+
+.place__paragraph:last-of-type {
+    padding: 0;
+}
+
+@media (max-width: 768px) {
+    .place__paragraph {
+        font-size: 16px;
+line-height: 27px;
+    }
+}
+
+@media (max-width: 716px) {
+    .place__paragraph {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}

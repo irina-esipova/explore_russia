@@ -1,0 +1,17 @@
+.places {
+    max-width: 984px;
+    margin: 0 auto 102px auto;
+}
+
+@media (max-width: 1024px) {
+    .places {
+        width: 90%; 
+    }
+}
+
+@media (max-width: 716px) {
+    .places {
+        width: 100%;
+        margin-bottom: 64px;
+    }
+}

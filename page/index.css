@@ -1,0 +1,22 @@
+@import url(../blocks/page/page.css);
+@import url(../blocks/comments/comments.css);
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/places/places.css);
+@import url(../blocks/video/video.css);
+@import url(../blocks/comment/comment.css);
+@import url(../blocks/place/place.css);
+@import url(https://rsms.me/inter/inter.css);
+html {
+    font-family: "Inter", Arial, sans-serif;
+}
+
+
+body {
+    background-color: #2A2C2F;
+}

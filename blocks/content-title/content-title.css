@@ -1,0 +1,45 @@
+.content-title {
+    margin: 0 auto;
+    font-size: 72px;
+    line-height: 78px;
+    font-weight: 900;
+    text-align: center;
+    font-family: Inter;
+    width: 55%;
+    align-self: center;
+} 
+
+@media (max-width:1280px) {
+    .content-title {
+        width: 62%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .content-title {
+        width: 90%;
+        line-height: 65px;
+    }
+}
+
+@media (max-width:768px) {
+    .content-title {
+        width: 93%;
+        font-size: 42px;
+        line-height: 46px;
+    }
+}
+
+@media (max-width:565px) {
+    .content-title {
+        width:90%;
+    }
+}
+
+@media (max-width:420px) {
+    .content-title {
+        font-size: 32px;
+        line-height:35px;
+        width:100%;
+    }
+}

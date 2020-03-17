@@ -1,0 +1,11 @@
+@media (max-width:768px) {
+    .place__text {
+        width: 100%;
+    }
+}
+
+@media (max-width: 716px) {
+    .place__text {
+        margin: auto;
+    }
+}

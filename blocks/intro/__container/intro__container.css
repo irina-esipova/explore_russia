@@ -1,0 +1,10 @@
+.intro__container {
+    width: 79%;
+}
+
+@media (max-width: 768px) {
+    .intro__container {
+        width: 100%;
+        
+    }
+}

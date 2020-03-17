@@ -1,0 +1,29 @@
+.comments__container {
+    width: 82%;
+    margin: 72px auto 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 19px;
+    justify-content: left;
+}
+
+@media (max-width:1280px) {
+    .comments__container {
+        width:90%;
+    }
+}
+
+@media (max-width:768px) {
+    .comments__container {
+        grid-template-columns: 1fr;
+        row-gap: 48px;
+        align-items: center;
+    }
+}
+
+@media (max-width:375px) {
+    .comments__container {
+        margin: 40px auto 0;
+    }
+}

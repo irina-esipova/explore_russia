@@ -1,0 +1,22 @@
+.footer__copyright {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media (max-width:768px) {
+    .footer__copyright {
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+}  
+
+@media (max-width: 658px) {
+    .footer__copyright {
+        align-self: flex-start;
+        margin: 48px 0 0 0;
+    }
+}

@@ -1,0 +1,15 @@
+.place__image {
+    width: 100%;
+}
+
+@media (max-width: 1024px) {
+    .place__image {
+        width: 95%;    
+    }
+}
+
+@media (max-width:716px) {
+    .place__image {
+        width: 100%;
+    }
+}

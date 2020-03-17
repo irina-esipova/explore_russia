@@ -1,0 +1,39 @@
+.cover__photo {
+    background-image: url("../../../images/cover.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction:column;
+    position: relative;
+}
+
+.cover__photo:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .5);
+    opacity: 0.7;
+    z-index: 1;
+}
+
+.cover__photo:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+}
+
+.cover__photo:hover:before, .cover__photo:hover:after {
+    opacity: 1;
+    border-radius: 5px;
+    transition: linear 0.3s;
+}
