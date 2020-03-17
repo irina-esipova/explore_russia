@@ -1,6 +1,6 @@
-@import url(../cover/__photo/cover__photo.css);
-@import url(../cover/__subtitle/cover__subtitle.css);
-@import url(../cover/__title/cover__title.css);
+@import url(./__photo/cover__photo.css);
+@import url(./__subtitle/cover__subtitle.css);
+@import url(./__title/cover__title.css);
 
 .cover {
     max-width: 1184px;
