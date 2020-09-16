@@ -1,0 +1,9 @@
+.popup__button.button_disabled {
+    background-color: #f1f1f1;
+    color: rgba(0, 0, 0, .2);
+}
+
+.popup__button_save.button_disabled {
+    background-color: #f1f1f1;
+    color: rgba(0, 0, 0, .2);
+}

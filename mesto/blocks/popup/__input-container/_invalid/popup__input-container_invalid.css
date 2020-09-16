@@ -1,0 +1,3 @@
+.popup__input-container_invalid .popup__error-message {
+    opacity: 1;
+}

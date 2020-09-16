@@ -1,0 +1,15 @@
+@import url(./__close/image-popup__close.css);
+@import url(./_is-opened/image-popup_is-opened.css);
+@import url(./__image/image-popup__image.css);
+@import url(./__content/image-popup__content.css);
+
+.image-popup {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
