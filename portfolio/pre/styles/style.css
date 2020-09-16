@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;600&display=swap");
+
+.root {
+    font-family: "Source Code Pro", monospace;
+    background-color: white;
+    font-size: 25px;
+}
+
+.root__section {
+    width: 80%;
+    margin: auto;
+}
+
+.root__section_margins_top-bottom {
+    margin: 70px auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 60px;
+    background-color: black;
+}
+
+.aboutme {
+    margin: 87px auto 87px auto;
+}
+
+.aboutme-subtitle {
+    text-align: left;
+    width: 40%;
+    margin: 40px auto;
+}
+
+.cover {
+    min-height: 30vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.root__cover {
+    background-image: url(../images/christin-hume-slbqShqAhEo-unsplash.jpg);
+    width: 40%;
+    margin: auto;
+}
+
+.main-text__paragraph {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 470px);
+    grid-row-gap: 50px;
+    grid-column-gap: 50px;
+}
+
+.card {
+    width: 500px;
+    box-sizing: border-box;
+}
+
+.card__heading {
+    margin: 0;
+    font-size: 24px;
+}
+
+.card__heading-marker {
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.card__text {
+    text-align: left;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.card__image {
+    width: 500px;
+    margin: 0;
+}
+
+.card__image:hover {
+    box-shadow:0 0 11px grey; 
+    
+}
+
+/* .contact-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.contact-form__input {
+    width: 45%;
+    height: 47px;
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+    font-size: 20px;
+    line-height: 17px;
+    box-sizing: border-box;
+    padding: 5px 6px 13px;
+    margin-bottom: 24px;
+  }
+
+  .contact-form__message {
+    width: 45%;
+    height: 100px;
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+    font-size: 20px;
+    line-height: 17px;
+    box-sizing: border-box;
+    padding: 5px 6px 13px;
+    margin-bottom: 24px;
+  }
+
+  .contact-form__button {
+    width: 10%;
+    height: 50px;
+    border: none;
+    margin-top: 48px;
+    color: white;
+    font-size: 20px;
+    background-color: #ffa5d8;
+  } */
+
+.contactme {
+    background-color: #92ddea;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.title {
+    text-align: center;
+    margin: auto;
+    max-width: 60%;
+}
+
+.subtitle {
+    text-align: center;
+    margin: auto;
+    max-width: 35%;
+    margin-top: 35px;
+}
+
+.footer {
+    min-height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.content-social {
+    margin: auto;
+    display: inline-block;
+}
+
+.content-social__icon {
+     width: 35px;
+     height: 35px;
+}
+
+.content-social__icon:hover {
+    transform: scale(1.1);
+    transition: 1.5s; 
+}
+
+a {
+    color: white;
+}
