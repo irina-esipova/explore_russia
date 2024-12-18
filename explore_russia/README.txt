@@ -1,7 +1,7 @@
 Explore Russia
 
 Информационная страница о путешествиях по России.
-https://irina-vasyuk.github.io/explore_russia/
+https://dev-projects.github.io/explore_russia/
 
 Проект о путешествиях по России. Адаптивный сайт по макету Figma. 
 Данная работа проверена опытными ревьюерами Яндекс.Практикума.
